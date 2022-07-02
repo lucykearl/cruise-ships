@@ -3,6 +3,12 @@ function Ship (name) {
     this.startingPort = name;
 };
 
+Ship.prototype.setSail = function () {
+    if (this.setSail) {
+        this.startingPort = false;
+    };
+};
+
 
 
 
