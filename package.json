@@ -1,0 +1,21 @@
+{
+  "name": "cruise-ships",
+  "version": "1.0.0",
+  "description": "cruise-ships",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"jest\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "cruise-ships"
+  },
+  "keywords": [
+    "cruise-ships"
+  ],
+  "author": "Lucy Earl",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
