@@ -1,15 +1,20 @@
-function Ship (name) {
-    this.name = name;
-    this.startingPort = name;
+class Ship {
+    constructor (name) {
+        this.name = name;
+        this.currentPort = name;
+    }
+
+setSail() {
+    this.currentPort = false;
+    
+}
+
+dock(port) {
+    this.currentPort = port;
+    
+    
+}
+
 };
-
-Ship.prototype.setSail = function () {
-    if (this.setSail) {
-        this.startingPort = false;
-    };
-};
-
-
-
 
 module.exports = Ship
